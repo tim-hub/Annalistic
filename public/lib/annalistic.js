@@ -6,7 +6,7 @@ var dappAddress ="n1qzdrK1gwWScdoGWqE7UeVNknT3ZxuvKmE";
 var nebulas = require("nebulas"),
     Account = nebulas.Account,
     neb = new nebulas.Neb();
-neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io/"));
+neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
 
 
 //to check if the extension is installed
