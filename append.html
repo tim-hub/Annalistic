@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,27 +17,32 @@
     <div class="logo">
         <div class="name">Annalistic 编年史</div>
         <div class="head">
-                <!-- <a href="index.html">View All</a> -->
-            <a href="append.html">New</a>
+            <a href="index.html">View All</a>
+            <!-- <a href="append.html">New</a> -->
         </div>
+
+        <!-- <form class="form-group"> -->
+            <div class="form-group">
+                <label class="form-control" for="history-input">Input Your Witness</label>
+                <textarea class="form-text"
+                id="history-input"
+                 rows="12"
+                 style="width:100%;"
+                 ></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id=add>add</button>
+            </div>
+        <!-- </form> -->
     </div>
 
-    <div class="result_success">
-        <div id=search_banner></div>
-            <div class="card-list">
-                <div class="card" id=search_result> 编年史在这里  </div>
-            </div>
-        </div>
-    </div>
 </div>
 <script src=lib/jquery-3.3.1.min.js></script>
 <script src=lib/nebPay.js></script>
 <script src=lib/bootstrap-4.1.0-dist/js/bootstrap.min.js></script>
 <script src=lib/nebulas.js></script>
 <script src=lib/annalistic.js></script>
-<script>
-    getAll();
-</script>
+
 </body>
 
 </html>
