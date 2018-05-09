@@ -1,6 +1,4 @@
-流程
-    --->输入信息，点击搜索
-        --->搜索成功 ，显示搜索结果
-        --->索索失败
-            --->显示 是否需要添加相应的信息
-                --->点击添加，出现输入信息框-->提交
+## Nebulas Annalistic
+星云链编年史
+
+This is a basic and primitive dapp running on nebulas chain to record the nebulas develop history, and it is not restricted to only nebulas's development history. It is a big decentralized disctionary web application, everyone can post a record to the blockchain with paying a little gas.
